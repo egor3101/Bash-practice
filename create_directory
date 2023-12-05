@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Enter name file" name_file 
+touch $name_file
+echo "File creatde sucssefull"
+read -p "Enter permission for file" permission_file
+chmod $permission_file $name_file 

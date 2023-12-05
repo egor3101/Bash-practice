@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Enter loggin: " username
+echo $username
+cat /etc/passwd | grep $username 
