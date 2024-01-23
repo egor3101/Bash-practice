@@ -1,0 +1,5 @@
+#!/bin/bash
+# Приведите пример цикла, печатающий только нечетные строки файла file1 используя цикл while.
+count=0
+
+cat /home/afonya/Desktop/test_1 | while read line;do if [[ $(( $count %2  )) -eq 0  ]]; then echo $line ; (( count += 1  )) ;  else (( count += 1  )) ; fi  done
