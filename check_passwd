@@ -1,7 +1,0 @@
-#Сделайте скрипт, который будет спрашивать имя пользователя и на основе ввода показывать нужную строчку из /etc/passwd.
-
-#!/bin/bash
-
-read -p "Enter loggin: " username
-echo $username
-cat /etc/passwd | grep $username 

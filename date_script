@@ -1,6 +1,0 @@
-#!/bin/bash
-
-
-mkdir /home/hik/Desktop/Scripts/"$(date)"
-
-exit 0
